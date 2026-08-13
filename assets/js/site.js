@@ -15,4 +15,5 @@
       const nums=[...journey.querySelectorAll('.chapter-no')];nums.forEach((n,idx)=>{n.textContent=String(idx+1).padStart(2,'0')});
     }
   }
+  const scannability=document.createElement('script');scannability.src='assets/js/scannability.js';scannability.defer=true;document.head.appendChild(scannability);
 })();
